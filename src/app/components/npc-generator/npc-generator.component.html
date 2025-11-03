@@ -1,0 +1,13 @@
+@if(data) {
+  <div id="output">
+    @if(currentNpc) {
+      <p class="npc">
+        {{ currentNpc.adjective }} {{ currentNpc.species }}
+        {{ currentNpc.category }} from {{ currentNpc.location }} who
+        {{ currentNpc.backstory }}
+      </p>
+    }
+    <button mat-button (click)="generateNpc()">Next one please</button>
+  </div>
+}
+
