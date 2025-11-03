@@ -6,6 +6,8 @@
 /e2e/test-output/
 /.angular/
 .angular/
+.editorconfig
+.vscode
 
 # Node modules and dependency files
 /node_modules/
